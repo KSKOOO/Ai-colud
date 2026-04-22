@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  lingyue-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lingyue-ai:latest
+    container_name: lingyue-ai
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ./data:/var/www/html/data
+      - ./storage:/var/www/html/storage
+      - ./logs:/var/www/html/logs
+      - ./config:/var/www/html/config
+    environment:
+      - TZ=Asia/Shanghai
+    networks:
+      - lingyue-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # 可选：使用Nginx作为反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: lingyue-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - lingyue-ai
+    networks:
+      - lingyue-network
+    profiles:
+      - nginx
+
+networks:
+  lingyue-network:
+    driver: bridge
+
+volumes:
+  lingyue-data:
+    driver: local
+  lingyue-storage:
+    driver: local
+  lingyue-logs:
+    driver: local

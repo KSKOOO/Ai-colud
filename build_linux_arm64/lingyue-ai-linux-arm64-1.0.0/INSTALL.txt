@@ -1,0 +1,38 @@
+﻿鍑屽渤绉戞妧AI杈呭姪骞冲彴 - Linux ARM64 Installation Guide
+=====================================================
+
+System Requirements:
+- CPU: ARM64 (AArch64) Architecture
+- Memory: 4GB+ (Recommended 8GB+)
+- Disk: 10GB+ Free Space
+- OS: Ubuntu 18.04+ ARM64, Debian 10+ ARM64, CentOS 7+ ARM64, RHEL 7+ ARM64, Raspberry Pi OS 64-bit
+
+ARM Specific Notes:
+-------------------
+1. PyTorch installation requires ARM version:
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+2. Some models may need to be recompiled or find ARM compatible versions
+
+Quick Installation:
+-------------------
+1. Extract the package:
+   tar -xzf lingyue-ai-linux-arm64-*.tar.gz
+   cd lingyue-ai-linux-arm64-*
+
+2. Run installation script:
+   sudo bash install.sh
+
+3. Access the system:
+   Open browser and visit http://your-server-ip:8000/install.php
+   Follow the wizard to complete initialization
+
+Manual Installation:
+--------------------
+Please refer to README_LINUX.md
+
+Uninstall:
+----------
+   sudo bash uninstall.sh
+
+For more help, please refer to README_LINUX.md

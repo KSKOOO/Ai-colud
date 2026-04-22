@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# 如果文件或目录不存在，重定向到 index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?route=$1 [QSA,L]
+</IfModule>
+
+# 设置默认字符集
+AddDefaultCharset UTF-8
+
+# 启用PHP（某些服务器需要）
+<IfModule mod_php.c>
+    php_flag display_errors on
+</IfModule>

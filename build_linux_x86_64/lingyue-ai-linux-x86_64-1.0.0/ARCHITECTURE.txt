@@ -1,0 +1,3 @@
+﻿Architecture: Linux x86_64 (AMD64)
+Supported Systems: Ubuntu 18.04+, Debian 10+, CentOS 7+, RHEL 7+, Fedora 30+
+Dependencies: PHP 7.4+, Nginx/Apache, SQLite3, Python 3.10+

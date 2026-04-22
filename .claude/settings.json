@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config *)",
+      "Bash(git commit -m ' *)",
+      "Bash(gh --version)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git commit *)",
+      "Bash(git reset *)"
+    ],
+    "additionalDirectories": [
+      "E:\\巨神兵本地包\\.git"
+    ]
+  }
+}

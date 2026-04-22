@@ -1,8 +1,0 @@
-# 忽略SQLite数据库文件（包含敏感数据）
-*.db
-*.db-journal
-*.db-wal
-*.db-shm
-
-# 但保留目录结构
-!.gitignore

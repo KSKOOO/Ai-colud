@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "聊天"
+      }
+    },
+    {
+      "path": "pages/agents/agents",
+      "style": {
+        "navigationBarTitleText": "智能体"
+      }
+    },
+    {
+      "path": "pages/agent-detail/agent-detail",
+      "style": {
+        "navigationBarTitleText": "智能体详情"
+      }
+    },
+    {
+      "path": "pages/agent-create/agent-create",
+      "style": {
+        "navigationBarTitleText": "创建智能体",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/collections/collections",
+      "style": {
+        "navigationBarTitleText": "收藏"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "历史"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/settings/profile",
+      "style": {
+        "navigationBarTitleText": "资料"
+      }
+    },
+    {
+      "path": "pages/settings/password",
+      "style": {
+        "navigationBarTitleText": "密码"
+      }
+    },
+    {
+      "path": "pages/settings/email",
+      "style": {
+        "navigationBarTitleText": "邮箱"
+      }
+    },
+    {
+      "path": "pages/help/help",
+      "style": {
+        "navigationBarTitleText": "帮助"
+      }
+    },
+    {
+      "path": "pages/help/feedback",
+      "style": {
+        "navigationBarTitleText": "反馈"
+      }
+    },
+    {
+      "path": "pages/scenarios/scenarios",
+      "style": {
+        "navigationBarTitleText": "场景"
+      }
+    },
+    {
+      "path": "pages/settings/privacy",
+      "style": {
+        "navigationBarTitleText": "隐私政策",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/settings/terms",
+      "style": {
+        "navigationBarTitleText": "用户协议",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "凌岳AI",
+    "navigationBarBackgroundColor": "#4c51bf",
+    "backgroundColor": "#f8fafc",
+    "pageOrientation": "portrait"
+  },
+  "tabBar": {
+    "color": "#6b7280",
+    "selectedColor": "#4c51bf",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "聊天",
+        "iconPath": "static/tabbar/chat.png",
+        "selectedIconPath": "static/tabbar/chat-active.png"
+      },
+      {
+        "pagePath": "pages/agents/agents",
+        "text": "智能体",
+        "iconPath": "static/tabbar/agent.png",
+        "selectedIconPath": "static/tabbar/agent-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  }
+}

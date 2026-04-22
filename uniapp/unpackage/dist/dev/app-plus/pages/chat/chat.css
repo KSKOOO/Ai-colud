@@ -1,0 +1,185 @@
+
+.chat-container[data-v-0a633310] {
+    min-height: 100vh;
+    background: #f8fafc;
+    display: flex;
+    flex-direction: column;
+}
+.message-list[data-v-0a633310] {
+    flex: 1;
+    padding: 0.75rem;
+    padding-bottom: 6.875rem;
+}
+.message-item[data-v-0a633310] {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.message-item.user[data-v-0a633310] {
+    flex-direction: row-reverse;
+}
+.message-avatar[data-v-0a633310] {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8125rem;
+    flex-shrink: 0;
+}
+.message-bubble[data-v-0a633310] {
+    max-width: 72%;
+    padding: 0.625rem 0.75rem;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    box-shadow: 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.06);
+}
+.message-bubble.assistant[data-v-0a633310] {
+    background: #ffffff;
+    color: #1f2937;
+}
+.message-bubble.user[data-v-0a633310] {
+    background: #4c51bf;
+    color: #ffffff;
+}
+.message-tag[data-v-0a633310] {
+    display: inline-block;
+    margin-top: 0.375rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.3125rem;
+    background: rgba(76, 81, 191, 0.12);
+    color: #4c51bf;
+    font-size: 0.6875rem;
+}
+.toolbar[data-v-0a633310] {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: #ffffff;
+    border-top: 0.03125rem solid #e5e7eb;
+}
+.mode-chip[data-v-0a633310],
+.model-chip[data-v-0a633310] {
+    padding: 0.4375rem 0.625rem;
+    border-radius: 31.21875rem;
+    background: #f3f4f6;
+    color: #4b5563;
+    font-size: 0.75rem;
+}
+.mode-chip.active[data-v-0a633310] {
+    background: #eef2ff;
+    color: #4c51bf;
+}
+.model-chip[data-v-0a633310] {
+    margin-left: auto;
+    max-width: 8.75rem;
+}
+.input-area[data-v-0a633310] {
+    background: #ffffff;
+    padding: 0.5rem 0.75rem calc(0.5rem + env(safe-area-inset-bottom));
+    border-top: 0.03125rem solid #e5e7eb;
+}
+.chat-input[data-v-0a633310] {
+    width: 100%;
+    min-height: 2.75rem;
+    max-height: 7.5rem;
+    background: #f3f4f6;
+    border-radius: 0.75rem;
+    padding: 0.625rem 0.75rem;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+}
+.action-row[data-v-0a633310] {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.clear-btn[data-v-0a633310],
+.send-btn[data-v-0a633310] {
+    padding: 0.5rem 1rem;
+    border-radius: 31.21875rem;
+    font-size: 0.8125rem;
+}
+.clear-btn[data-v-0a633310] {
+    background: #f3f4f6;
+    color: #4b5563;
+}
+.send-btn[data-v-0a633310] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #ffffff;
+}
+.send-btn.disabled[data-v-0a633310] {
+    opacity: 0.5;
+}
+.popup-mask[data-v-0a633310] {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: flex-end;
+    z-index: 1000;
+}
+.popup-panel[data-v-0a633310] {
+    width: 100%;
+    max-height: 70vh;
+    background: #ffffff;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+}
+.popup-header[data-v-0a633310] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    border-bottom: 0.03125rem solid #e5e7eb;
+}
+.popup-title[data-v-0a633310] {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+.popup-close[data-v-0a633310] {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+.popup-list[data-v-0a633310] {
+    max-height: 60vh;
+}
+.popup-item[data-v-0a633310] {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 0.03125rem solid #f3f4f6;
+}
+.popup-item.selected[data-v-0a633310] {
+    background: #eef2ff;
+}
+.popup-item-main[data-v-0a633310] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.popup-item-name[data-v-0a633310] {
+    font-size: 0.875rem;
+    color: #1f2937;
+    font-weight: 600;
+}
+.popup-item-remark[data-v-0a633310] {
+    margin-top: 0.1875rem;
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+.popup-provider[data-v-0a633310] {
+    font-size: 0.6875rem;
+    color: #4c51bf;
+    background: #eef2ff;
+    padding: 0.25rem 0.375rem;
+    border-radius: 0.3125rem;
+    align-self: center;
+}

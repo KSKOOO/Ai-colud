@@ -1,0 +1,182 @@
+
+.help-container[data-v-5194e907] {
+    min-height: 100vh;
+    background: #f8fafc;
+    padding-bottom: 1rem;
+}
+.search-section[data-v-5194e907] {
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.search-box[data-v-5194e907] {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+}
+.search-icon[data-v-5194e907] {
+    font-size: 0.875rem;
+    margin-right: 0.375rem;
+    color: #ffffff;
+}
+.search-box uni-input[data-v-5194e907] {
+    flex: 1;
+    font-size: 0.875rem;
+    color: #ffffff;
+}
+.placeholder[data-v-5194e907] {
+    color: rgba(255, 255, 255, 0.7);
+}
+.category-section[data-v-5194e907] {
+    padding: 0.75rem;
+}
+.category-grid[data-v-5194e907] {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+.category-item[data-v-5194e907] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.04);
+}
+.category-icon[data-v-5194e907] {
+    font-size: 1.25rem;
+    margin-bottom: 0.375rem;
+}
+.category-name[data-v-5194e907] {
+    font-size: 0.75rem;
+    color: #1f2937;
+}
+.faq-section[data-v-5194e907] {
+    padding: 0 0.75rem;
+}
+.section-title[data-v-5194e907] {
+    padding: 0.75rem 0 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+.faq-list[data-v-5194e907] {
+    background: #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.faq-item[data-v-5194e907] {
+    border-bottom: 0.03125rem solid #f3f4f6;
+}
+.faq-item[data-v-5194e907]:last-child {
+    border-bottom: none;
+}
+.faq-question[data-v-5194e907] {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+}
+.q-badge[data-v-5194e907] {
+    width: 1.125rem;
+    height: 1.125rem;
+    background: #4c51bf;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6875rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+.question-text[data-v-5194e907] {
+    flex: 1;
+    font-size: 0.875rem;
+    color: #1f2937;
+}
+.expand-icon[data-v-5194e907] {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    transition: transform 0.3s;
+}
+.expand-icon.expanded[data-v-5194e907] {
+    transform: rotate(180deg);
+}
+.faq-answer[data-v-5194e907] {
+    display: flex;
+    padding: 0 0.75rem 0.75rem;
+    background: #f8fafc;
+}
+.a-badge[data-v-5194e907] {
+    width: 1.125rem;
+    height: 1.125rem;
+    background: #22c55e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6875rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+.answer-text[data-v-5194e907] {
+    flex: 1;
+    font-size: 0.8125rem;
+    color: #4b5563;
+    line-height: 1.6;
+}
+.contact-section[data-v-5194e907] {
+    padding: 1rem 0.75rem;
+}
+.contact-title[data-v-5194e907] {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+.contact-buttons[data-v-5194e907] {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-btn[data-v-5194e907] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-icon[data-v-5194e907] {
+    width: 3rem;
+    height: 3rem;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.375rem;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.08);
+}
+.btn-text[data-v-5194e907] {
+    font-size: 0.75rem;
+    color: #1f2937;
+}
+.feedback-section[data-v-5194e907] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.75rem;
+    padding: 0.875rem 1rem;
+    background: #ffffff;
+    border-radius: 0.5rem;
+}
+.feedback-text[data-v-5194e907] {
+    font-size: 0.875rem;
+    color: #1f2937;
+}
+.feedback-arrow[data-v-5194e907] {
+    font-size: 0.875rem;
+    color: #9ca3af;
+}

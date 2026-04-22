@@ -1,0 +1,190 @@
+
+.login-container[data-v-e4e4508d] {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 背景装饰 */
+.bg-decoration[data-v-e4e4508d] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+.circle[data-v-e4e4508d] {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.circle-1[data-v-e4e4508d] {
+    width: 12.5rem;
+    height: 12.5rem;
+    top: -3.125rem;
+    right: -3.125rem;
+}
+.circle-2[data-v-e4e4508d] {
+    width: 9.375rem;
+    height: 9.375rem;
+    bottom: 6.25rem;
+    left: -4.6875rem;
+}
+.circle-3[data-v-e4e4508d] {
+    width: 6.25rem;
+    height: 6.25rem;
+    bottom: -1.5625rem;
+    right: 3.125rem;
+}
+
+/* Logo 区域 */
+.logo-area[data-v-e4e4508d] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    z-index: 1;
+}
+.logo-icon[data-v-e4e4508d] {
+    width: 5rem;
+    height: 5rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    padding: 0.625rem;
+    position: relative;
+}
+.logo-text[data-v-e4e4508d] {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+.app-name[data-v-e4e4508d] {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+.app-slogan[data-v-e4e4508d] {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* 表单区域 */
+.form-area[data-v-e4e4508d] {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem 1.25rem;
+    box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.15);
+    z-index: 1;
+}
+
+/* 标签栏 */
+.tab-bar[data-v-e4e4508d] {
+    display: flex;
+    margin-bottom: 1.5rem;
+    background: #f3f4f6;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+.tab-item[data-v-e4e4508d] {
+    flex: 1;
+    text-align: center;
+    padding: 0.625rem 0;
+    font-size: 0.875rem;
+    color: #6b7280;
+    border-radius: 0.375rem;
+    transition: all 0.3s;
+}
+.tab-item.active[data-v-e4e4508d] {
+    background: #ffffff;
+    color: #4c51bf;
+    font-weight: 600;
+    box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.08);
+}
+
+/* 表单内容 */
+.form-content[data-v-e4e4508d] {
+    animation: fadeIn-e4e4508d 0.3s ease;
+}
+@keyframes fadeIn-e4e4508d {
+from {
+        opacity: 0;
+        transform: translateY(0.625rem);
+}
+to {
+        opacity: 1;
+        transform: translateY(0);
+}
+}
+
+/* 输入框组 */
+.input-group[data-v-e4e4508d] {
+    display: flex;
+    align-items: center;
+    background: #f9fafb;
+    border: 0.0625rem solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0 0.75rem;
+    margin-bottom: 0.75rem;
+    transition: all 0.3s;
+}
+.input-group[data-v-e4e4508d]:focus-within {
+    border-color: #4c51bf;
+    background: #ffffff;
+    box-shadow: 0 0 0 0.125rem rgba(76, 81, 191, 0.1);
+}
+.input-icon[data-v-e4e4508d] {
+    font-size: 1.125rem;
+    margin-right: 0.5rem;
+}
+.input-group uni-input[data-v-e4e4508d] {
+    flex: 1;
+    height: 3rem;
+    font-size: 0.875rem;
+    color: #1f2937;
+}
+.placeholder[data-v-e4e4508d] {
+    color: #9ca3af;
+}
+
+/* 提交按钮 */
+.btn-submit[data-v-e4e4508d] {
+    width: 100%;
+    height: 3rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    transition: all 0.3s;
+}
+.btn-submit[data-v-e4e4508d]:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
+/* 底部 */
+.footer[data-v-e4e4508d] {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    z-index: 1;
+}
+.copyright[data-v-e4e4508d] {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+}

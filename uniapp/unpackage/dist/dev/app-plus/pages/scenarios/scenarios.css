@@ -1,0 +1,62 @@
+
+.page[data-v-42be7276] {
+    min-height: 100vh;
+    background: #f8fafc;
+    padding: 0.75rem;
+}
+.header[data-v-42be7276] {
+    margin-bottom: 0.75rem;
+}
+.title[data-v-42be7276] {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #1f2937;
+}
+.desc[data-v-42be7276] {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.8125rem;
+    color: #6b7280;
+}
+.list[data-v-42be7276] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+.card[data-v-42be7276] {
+    display: flex;
+    gap: 0.625rem;
+    background: #ffffff;
+    padding: 0.75rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.0625rem 0.3125rem rgba(0, 0, 0, 0.05);
+}
+.icon[data-v-42be7276] {
+    width: 2.25rem;
+    height: 2.25rem;
+    background: #eef2ff;
+    border-radius: 0.5625rem;
+    color: #4c51bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0625rem;
+    text-align: center;
+    line-height: 2.25rem;
+}
+.body[data-v-42be7276] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.name[data-v-42be7276] {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+.text[data-v-42be7276] {
+    margin-top: 0.25rem;
+    font-size: 0.78125rem;
+    color: #6b7280;
+}
